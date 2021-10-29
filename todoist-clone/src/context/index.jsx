@@ -1,5 +1,20 @@
-export const collatedTasks = [
-    {key: 'INBOX', name: 'Inbox'}
-    {key: 'TODAY', name: 'Today'}
-    {key: 'NEXT_7', name: 'Next 7 days'}
-];
+import {
+  ProjectsContext,
+  ProjectsProvider,
+  useProjectsValue,
+} from "./projects-context";
+
+import {
+  SelectedProjectContext,
+  SelectedProjectProvider,
+  useSelectedProjectValue,
+} from "./selected-project-context";
+
+export {
+  ProjectsContext,
+  ProjectsProvider,
+  useProjectsValue,
+  SelectedProjectContext,
+  SelectedProjectProvider,
+  useSelectedProjectValue,
+};

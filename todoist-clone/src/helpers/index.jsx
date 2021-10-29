@@ -1,4 +1,3 @@
-import React from "react";
 import { collatedTasks } from "../constants";
 
 export const collatedTasksExist = (selectedProject) =>
