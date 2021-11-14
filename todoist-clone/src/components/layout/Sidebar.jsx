@@ -15,7 +15,7 @@ export const Sidebar = () => {
 
   return (
     <div className="sidebar" data-testid="sidebar">
-      <ul className="sidebar-generic">
+      <ul className="sidebar__generic">
         <li data-testid="inbox" className="inbox">
           <span>
             <FaInbox />
@@ -41,7 +41,7 @@ export const Sidebar = () => {
         </span>
         <h2>Projects</h2>
       </div>
-      <ul className="sidebar__projects">Projects will be Here</ul>
+      <ul className="sidebar__projects"></ul>
       <Projects />
     </div>
   );
